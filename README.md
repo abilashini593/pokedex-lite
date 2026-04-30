@@ -1,75 +1,69 @@
-🚀 Pokédex Lite
+# Pokédex Lite
 
-A modern, responsive Pokédex application built using React + TypeScript + Vite that allows users to explore Pokémon data in a clean and interactive interface.
+A modern web-based Pokédex application built using React and TypeScript.  
+The application integrates with the public PokéAPI to fetch and display Pokémon data in a clean and responsive interface.
 
-📖 Overview
+---
 
-Pokédex Lite integrates with the public PokéAPI to fetch and display Pokémon data with:
+## Features
 
-🔍 Search functionality
-🧬 Filter by type
-📄 Pagination support
-⭐ Favorites system (with persistence)
-🌗 Light / Dark theme toggle
-📱 Fully responsive design
-❌ Proper API error handling
+- Search Pokémon globally by name  
+- Filter Pokémon by type  
+- Pagination for efficient browsing  
+- Add and remove Pokémon from favorites  
+- Favorites persist using localStorage  
+- Light and Dark theme toggle  
+- Proper loading and error handling  
 
-The application demonstrates scalable state management, reusable component architecture, and clean frontend practices.
+---
 
-🛠️ Tech Stack
-Frontend: React + TypeScript
-Build Tool: Vite
-API: PokéAPI
-State Management: React Hooks
-Styling: CSS
-Icons: Lucide React
-✨ Features
-🔍 Search Pokémon
+## Tech Stack
 
-Users can search Pokémon globally by name.
+- **Frontend:** React, TypeScript  
+- **Build Tool:** Vite  
+- **API:** PokéAPI  
+- **State Management:** React Hooks  
+- **Styling:** CSS  
 
-🧬 Filter by Type
+---
 
-Filter Pokémon by selecting a specific type.
-
-📄 Pagination
-
-Navigate through Pokémon data efficiently.
-
-⭐ Favorites
-Add/remove Pokémon from favorites
-Favorites persist using localStorage
-🌗 Theme Toggle
-
-Switch between Light and Dark modes.
-
-❌ Error Handling
-
-Displays a user-friendly error message when API fails.
-
-🧠 What This Project Demonstrates
-Clean component-based architecture
-Separation of concerns (API layer, hooks, components)
-Proper loading and error states
-Responsive UI design
-Git & GitHub workflow
-📂 Project Structure
+## Project Structure
 src/
- ├── components/
- ├── api/
- ├── hooks/
- ├── types.ts
- ├── App.tsx
- └── main.tsx
-🚀 Getting Started
-1️⃣ Clone the repository
+├── components/
+├── api/
+├── hooks/
+├── types.ts
+├── App.tsx
+└── main.tsx
+
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/abilashini593/pokedex-lite.git
-2️⃣ Install dependencies
+cd pokedex-lite
+### 2. Install dependencies
 npm install
-3️⃣ Run the project
+### 3. Run the application
 npm run dev
-📌 Future Improvements
-Add real authentication
-Add unit testing
-Deploy live version
-Improve UI animations
+
+## What This Project Demonstrates
+
+- Clean component-based architecture  
+- Separation of concerns (API layer, hooks, components)  
+- Scalable state management  
+- Responsive UI design  
+- Proper loading and error states  
+
+---
+
+## Future Improvements
+
+- Add authentication  
+- Add unit testing  
+- Deploy live version  
+- Improve UI animations  
